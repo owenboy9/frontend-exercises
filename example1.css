@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&display=swap');
+
+*{
+    font-family: 'Fredericka the Great';
+}
+.flex-container{
+  display:flex;
+
+}
+.left{
+  border: 12px;
+  border-style: dotted;
+  border-color: aquamarine;
+  width: 30%;
+  height: auto;
+  background-color: lightgray;
+}
+
+.right{
+  border: 12px;
+  border-style: dotted;
+  border-color: pink;
+  width: 70%;
+  height: auto;
+  background-color: lightblue;
+}
+
+.img{
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 50%;
+}
