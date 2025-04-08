@@ -5,7 +5,8 @@
 }
 .flex-container{
   display:flex;
-
+    background-image: url("resources/cloud.jpeg");
+  background-size: cover;
 }
 .left{
   border: 12px;
@@ -30,4 +31,9 @@
   height: 120px;
   margin: 10px;
   border-radius: 50%;
+}
+
+body {
+  background-image: url("resources/cloud.jpeg");
+  background-size: cover;
 }
