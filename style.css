@@ -1,30 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&display=swap');
 
-*{
-    font-family: 'Fredericka the Great';
-}
-.flex-container{
-  display:flex;
-    background-image: url("resources/cloud.jpeg");
-  background-size: cover;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.left{
-  border: 12px;
-  border-style: dotted;
-  border-color: aquamarine;
-  width: 30%;
-  height: auto;
-  background-color: lightgray;
-}
-
-.right{
-  border: 12px;
-  border-style: dotted;
-  border-color: pink;
-  width: 70%;
-  height: auto;
-  background-color: lightblue;
+* {
+  box-sizing: border-box;
+  font-size: 2vh;
+  color: #fff;
+  font-family: 'Fredericka the Great';
 }
 
 .img{
@@ -32,6 +18,12 @@
   height: 120px;
   margin: 10px;
   border-radius: 50%;
+}
+
+header {
+  padding: none;
+  margin: none;
+  height: 30vh;
 }
 
 nav {
@@ -47,7 +39,37 @@ nav>a {
   font-size: large;
 }
 
+#header>.content>section {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.content>section>p {
+  text-align: left;
+  color: black
+}
+
+.content>section>h1 {
+  text-align: left;
+  color: black
+}
+
 body {
   background-image: url("resources/cloud.jpeg");
   background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 10vh 4vw;
+}
+#main {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 3vw;
 }
