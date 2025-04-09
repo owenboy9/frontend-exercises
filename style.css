@@ -64,7 +64,7 @@ body {
 main {
   display: flex;
   flex-direction: row;
-  padding: 10vh 6vw;
+  padding: 10vh 10vw;
 }
 
 #main {
