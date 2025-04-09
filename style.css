@@ -58,7 +58,7 @@ nav>a {
 
 body {
   background-image: url("resources/faces.jpeg");
-  background-size: fill;
+  background-size: cover;
 }
 
 main {
