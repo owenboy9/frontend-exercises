@@ -34,12 +34,12 @@ nav {
 }
 
 nav>a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: large;
 }
 
-#header>.content>section {
+#header>.header-container>.content>section {
   display: flex;
   flex-direction: column;
   width: 50vw;
@@ -48,16 +48,16 @@ nav>a {
 
 .content>section>p {
   text-align: left;
-  color: black
+  color: white;
 }
 
 .content>section>h1 {
   text-align: left;
-  color: black
+  color: white
 }
 
 body {
-  background-image: url("resources/phoneonbench.jpg");
+  background-image: url("resources/faces.jpeg");
   background-size: fill;
 }
 
