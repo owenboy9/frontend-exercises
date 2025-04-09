@@ -57,9 +57,8 @@ nav>a {
 }
 
 body {
-  background-image: url("resources/cloud.jpeg");
+  background-image: url("resources/verticalbench.jpg");
   background-size: cover;
-  background-position: bottom;
 }
 
 main {
