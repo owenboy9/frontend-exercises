@@ -9,7 +9,7 @@
 * {
   box-sizing: border-box;
   font-size: 2vh;
-  color: #fff;
+  color: whitesmoke;
   font-family: 'Fredericka the Great';
 }
 
@@ -35,26 +35,40 @@ nav {
 }
 
 nav>a {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
   font-size: large;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: justify;
+  margin-bottom: 3vh;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+h4 {
+  text-align: left;
 }
 
 #header>.header-container>.content>section {
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  
+  width: 100%;
+  color: whitesmoke;
 }
 
 .content>section>p {
   text-align: left;
-  color: white;
+  color: whitesmoke;
 }
 
 .content>section>h1 {
   text-align: left;
-  color: white
+  color: whitesmoke
 }
 
 body {
@@ -65,15 +79,113 @@ body {
 
 main {
   display: flex;
-  flex-direction: row;
-  padding: 10vh 10vw;
+  flex-direction: column;
+  padding: 3vh 3vw;
 }
 
 #main {
   width: 82%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-right: 3vw;
+  padding: 3vh 3vw;
+}
+
+#main>section {
+  width: 28%;
+}
+
+#one {
+  flex-grow: 15;
+}
+
+#one>article>:last-child {
+  color: whitesmoke;
+}
+
+#one>article>div>img {
+  width: 42vw;
+  position: sticky;
+  overflow: visible;
+  opacity: 0.7;
+}
+
+#two>article>:nth-child(2) {
+  color: whitesmoke;
+}
+
+#two>article>p {
+  color: whitesmoke;
+}
+
+#two>article>div>img {
+  width: 42vw;
+  position: sticky;
+  overflow: visible;
+  opacity: 0.7;
+}
+
+#three>article>:nth-child(2) {
+  color: whitesmoke;
+}
+
+#three>article>p {
+  color: whitesmoke;
+}
+
+#three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -39vh;
+  opacity: 0.6;
+}
+
+#three>article>div>img {
+  width: 42vw;
+  position: sticky;
+  overflow: visible;
+  opacity: 0.7;
+}
+
+#four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -39vh;
+  opacity: 0.6;
+}
+
+#four>article>:last-child {
+  color: whitesmoke;
+}
+
+#four>article {
+  width: 50vw;
+}
+
+#four>article>div>img {
+  width: 42vw;
+  position: sticky;
+  overflow: visible;
+  opacity: 0.7;
+}
+
+#five {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -39vh;
+  opacity: 0.6;
+}
+
+#five>article>div>img {
+  width: 42vw;
+  position: sticky;
+  overflow: visible;
+  opacity: 0.7;
 }
