@@ -1,0 +1,49 @@
+{
+  "education": [
+    {
+      "institution": "Handelsakademin",
+      "location": "Malmö, Sweden",
+      "period": "09/2023 – 12/2024",
+      "role": "Object-Oriented Programming with a Focus on AI",
+      "description": "Internship at Arduino’s Malmö office (09/2024 – 12/2024)"
+    },
+    {
+      "institution": "Stanford University",
+      "location": "Palo Alto, CA",
+      "period": "01/2020 – 12/2021",
+      "role": "Wallenberg Postdoctoral Fellowship, DLCL / ILAC",
+      "description": "Research in Hispanic Studies."
+    },
+    {
+      "institution": "Lund University",
+      "location": "Sweden",
+      "period": "10/2010 – 12/2016",
+      "role": "Ph.D. in Hispanic Studies, Literature",
+      "description": "Research focus on Hispanic literature."
+    },
+    {
+      "institution": "Warsaw University",
+      "location": "Poland",
+      "period": "10/1998 – 06/2003",
+      "role": "M.A. in Hispanic Studies, Interdisciplinary Humanities & Social Sciences",
+      "description": "Interdisciplinary research in humanities and social sciences."
+    }
+  ],
+
+  "professionalExperience": [
+    {
+      "institution": "Arduino",
+      "location": "Malmö, Sweden",
+      "period": "09/2024 – 12/2024",
+      "role": "Firmware & Embedded Systems Intern",
+      "description": "Developed C/C++ firmware, debugged microcontroller systems, and designed software components."
+    },
+    {
+      "institution": "Zetkin Foundation",
+      "location": "Malmö, Sweden",
+      "period": "09/2024 – Present",
+      "role": "Volunteer Software Developer",
+      "description": "Contributed to open-source debugging and optimized frontend/backend performance."
+    }
+  ]
+}
