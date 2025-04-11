@@ -12,21 +12,21 @@
       "location": "Palo Alto, CA",
       "period": "01/2020 – 12/2021",
       "role": "Wallenberg Postdoctoral Fellowship, DLCL / ILAC",
-      "description": "Research in contemporary Latin American literature and culture"
+      "description": "Conducted research in contemporary Latin American literature and culture. Prticipated in large-scale research projects, requiring structured problem-solving and cross-team collaboration."
     },
     {
       "institution": "Lund University",
       "location": "Lund, Sweden",
       "period": "10/2010 – 12/2016",
       "role": "Ph.D. in Hispanic Studies, Literature",
-      "description": "Research and teaching within Hispanic literature and culture"
+      "description": "Research and teaching within Hispanic literature and culture. Developed a strong foundation in documentation, analysis, and knowledge-sharing, transferable to engineering environments."
     },
     {
       "institution": "Warsaw University",
       "location": "Warsaw, Poland",
       "period": "10/1998 – 06/2003",
       "role": "M.A. in Hispanic Studies, Interdisciplinary Humanities & Social Sciences",
-      "description": "Interdisciplinary research in humanities and social sciences"
+      "description": "Interdisciplinary research in humanities and social sciences."
     }
   ],
 
@@ -36,14 +36,21 @@
       "location": "Malmö, Sweden",
       "period": "09/2024 – 12/2024",
       "role": "Firmware & Embedded Systems Intern",
-      "description": "Developed a responsive GUI for machine control and test automatization, debugged microcontroller systems, and designed software components"
+      "description": "Developed a responsive GUI for machine control and test automatization, debugged microcontroller systems, and designed software components."
     },
     {
       "institution": "Zetkin Foundation",
       "location": "Malmö, Sweden",
       "period": "09/2024 – Present",
       "role": "Volunteer Software Developer",
-      "description": "Contributed to open-source debugging and optimized frontend/backend performance"
+      "description": "Contributed to open-source debugging and optimized frontend/backend performance."
+    },
+    {
+      "institution": "Hypnos Theatre",
+      "location": "Malmö, Sweden",
+      "period": "02/2019 – Present",
+      "role": "Co-Founder & Artistic Director",
+      "description": "Co-founded an independent arthouse theatre.Managed a complex, interdisciplinary initiative, emphasizing adaptability, communication skills, and creative problem-solving."
     }
   ]
 }
