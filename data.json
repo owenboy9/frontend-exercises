@@ -12,21 +12,21 @@
       "location": "Palo Alto, CA",
       "period": "01/2020 – 12/2021",
       "role": "Wallenberg Postdoctoral Fellowship, DLCL / ILAC",
-      "description": "Research in Hispanic Studies."
+      "description": "Research in Hispanic Studies"
     },
     {
       "institution": "LUND UNIVERSITY",
       "location": "Lund, Sweden",
       "period": "10/2010 – 12/2016",
       "role": "Ph.D. in Hispanic Studies, Literature",
-      "description": "Research focus on Hispanic literature."
+      "description": "Research focus on Hispanic literature"
     },
     {
       "institution": "WARSZAW UNIVERSITY",
       "location": "Warsaw, Poland",
       "period": "10/1998 – 06/2003",
       "role": "M.A. in Hispanic Studies, Interdisciplinary Humanities & Social Sciences",
-      "description": "Interdisciplinary research in humanities and social sciences."
+      "description": "Interdisciplinary research in humanities and social sciences"
     }
   ],
 
@@ -36,14 +36,14 @@
       "location": "Malmö, Sweden",
       "period": "09/2024 – 12/2024",
       "role": "Firmware & Embedded Systems Intern",
-      "description": "Developed C/C++ firmware, debugged microcontroller systems, and designed software components."
+      "description": "Developed C/C++ firmware, debugged microcontroller systems, and designed software components"
     },
     {
       "institution": "ZETKIN FOUNDATION",
       "location": "Malmö, Sweden",
       "period": "09/2024 – Present",
       "role": "Volunteer Software Developer",
-      "description": "Contributed to open-source debugging and optimized frontend/backend performance."
+      "description": "Contributed to open-source debugging and optimized frontend/backend performance"
     }
   ]
 }

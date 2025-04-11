@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 *,
 *::before,
@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-size: 2vh;
   color: whitesmoke;
-  font-family: 'Fredericka the Great';
+  font-family: "EB Garamond", serif;
 }
 
 .img{
@@ -26,9 +26,8 @@ header {
   margin-right: none;
   margin-left: none;
   margin-top: 0vh;
-  height: 23vh;
+  height: fit-content;
   justify-content: space-between;
-  margin-bottom: 7vh;
 }
 
 nav {
@@ -37,7 +36,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: 'Fredericka the Great';
-  padding-bottom: 4vh;
 }
 
 nav>a {
@@ -52,7 +50,6 @@ header>.content {
   margin-left: none;
   display: flex;
   flex-direction: column;
-  margin-bottom: 7vh;
   justify-content: space-between;
   color: whitesmoke;
   padding-top: 5vh;
@@ -64,7 +61,6 @@ header>.content>section {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  margin-bottom: 2vh;
 }
 
 header>.content>section>p {
@@ -86,13 +82,11 @@ body {
 }
   
 main {
-  margin-top: 12vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 5vw;
   padding-right: 5vw;
-
 }
 
 main>#big-box {
@@ -100,14 +94,23 @@ main>#big-box {
   margin-bottom: 12vh;
   width: 100%;
   padding-bottom: 12vh;
+}
+
+main>#big-box> .small-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: rgba(92, 76, 76, 0.966);
+  border-radius: 20px;
   padding-left: 3vw;
   padding-right: 3vw;
-  background-color: rgba(66, 64, 78, 0.925);
-  border-radius: 20px;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
-main>#big-box> :first-child {
-  margin-top: 5vh;
-}
+
 /* Apply to all divs (e.g. resume entries) */
 
 /* Apply to strong tags (e.g. institution names) */
@@ -129,8 +132,6 @@ main>#big-box>section {
   margin-top: 15vh;
 }
 
-main>#big-box> a {
-  position: absolute;
-  right: 200px; /* Adjust the distance from the right edge */
-  margin-bottom: 14vh;
+main>#big-box> .small-container> a {
+  margin-bottom: 3vh;
 }
