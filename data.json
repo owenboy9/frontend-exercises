@@ -52,5 +52,29 @@
       "role": "Co-Founder & Artistic Director",
       "description": "Co-founded an independent arthouse theatre.Managed a complex, interdisciplinary initiative, emphasizing adaptability, communication skills, and creative problem-solving."
     }
+  ],
+  "programmingSkills": [
+    { "language": "C / C++", "proficiency": "beginner" },
+    { "language": "C#", "proficiency": "intermediate" },
+    { "language": "Python", "proficiency": "advanced" },
+    { "language": "JavaScript / TypeScript", "proficiency": "intermediate" },
+    { "language": "React", "proficiency": "intermediate" },
+    { "language": "MySQL", "proficiency": "intermediate" },
+    { "language": "Docker", "proficiency": "intermediate" },
+    { "language": "Git / GitHub", "proficiency": "advanced" },
+    { "language": "CI/CD", "proficiency": "intermediate" },
+    { "language": "Linux", "proficiency": "beginner" },
+    { "language": "Windows", "proficiency": "advanced" },
+    { "language": "macOS", "proficiency": "advanced" }
+  ],
+  "humanLanguages": [
+    { "language": "Polish", "proficiency": "native" },
+    { "language": "Swedish", "proficiency": "near-native" },
+    { "language": "English", "proficiency": "near-native" },
+    { "language": "Spanish", "proficiency": "proficient" },
+    { "language": "French", "proficiency": "advanced" },
+    { "language": "Portuguese", "proficiency": "passive advanced" },
+    { "language": "Norwegian", "proficiency": "passive advanced" },
+    { "language": "Danish", "proficiency": "passive advanced" }
   ]
 }

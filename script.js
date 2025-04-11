@@ -1,11 +1,34 @@
 fetch('data.json')
-  .then(response => response.json())  // Parse the JSON data
+  .then(response => response.json())
   .then(data => {
     loadSection(data.education, "education");
     loadSection(data.professionalExperience, "professional-experience");
+    loadListSection(data.humanLanguages, "human-languages");
+    loadListSection(data.programmingSkills, "programming-skills");
   })
   .catch(error => console.error('Error fetching data:', error));
+  
+// For languages and programming skills
+function loadListSection(entries, containerId) {
+  const container = document.getElementById(containerId);
 
+  entries.forEach(item => {
+    let entry = document.createElement("div");
+    entry.classList.add("list-entry");
+
+    let language = document.createElement("strong");
+    language.textContent = item.language;
+
+    let proficiency = document.createElement("span");
+    proficiency.textContent = ` — ${item.proficiency}`;
+
+    entry.appendChild(language);
+    entry.appendChild(proficiency);
+
+    container.appendChild(entry);
+  });
+}
+Result:
 // Function to load either Education or Professional Experience section
 function loadSection(entries, containerId) {
   const container = document.getElementById(containerId);
