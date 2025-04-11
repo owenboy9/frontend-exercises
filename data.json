@@ -1,28 +1,28 @@
 {
   "education": [
     {
-      "institution": "HANDELSAKADEMIN",
+      "institution": "Handelsakademin",
       "location": "Malmö, Sweden",
       "period": "09/2023 – 12/2024",
       "role": "Object-Oriented Programming with a Focus on AI",
       "description": "Internship at Arduino’s Malmö office (09/2024 – 12/2024)"
     },
     {
-      "institution": "STANFORD UNIVERSITY",
+      "institution": "Stanford University",
       "location": "Palo Alto, CA",
       "period": "01/2020 – 12/2021",
       "role": "Wallenberg Postdoctoral Fellowship, DLCL / ILAC",
-      "description": "Research in Hispanic Studies"
+      "description": "Research in contemporary Latin American literature and culture"
     },
     {
-      "institution": "LUND UNIVERSITY",
+      "institution": "Lund University",
       "location": "Lund, Sweden",
       "period": "10/2010 – 12/2016",
       "role": "Ph.D. in Hispanic Studies, Literature",
-      "description": "Research focus on Hispanic literature"
+      "description": "Research and teaching within Hispanic literature and culture"
     },
     {
-      "institution": "WARSZAW UNIVERSITY",
+      "institution": "Warsaw University",
       "location": "Warsaw, Poland",
       "period": "10/1998 – 06/2003",
       "role": "M.A. in Hispanic Studies, Interdisciplinary Humanities & Social Sciences",
@@ -32,14 +32,14 @@
 
   "professionalExperience": [
     {
-      "institution": "ARDUINO",
+      "institution": "Arduino",
       "location": "Malmö, Sweden",
       "period": "09/2024 – 12/2024",
       "role": "Firmware & Embedded Systems Intern",
-      "description": "Developed C/C++ firmware, debugged microcontroller systems, and designed software components"
+      "description": "Developed a responsive GUI for machine control and test automatization, debugged microcontroller systems, and designed software components"
     },
     {
-      "institution": "ZETKIN FOUNDATION",
+      "institution": "Zetkin Foundation",
       "location": "Malmö, Sweden",
       "period": "09/2024 – Present",
       "role": "Volunteer Software Developer",

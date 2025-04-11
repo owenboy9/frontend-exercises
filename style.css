@@ -25,7 +25,7 @@ header {
   flex-direction: column;
   margin-right: none;
   margin-left: none;
-  margin-top: 0vh;
+  margin-bottom: none;
   height: fit-content;
   justify-content: space-between;
 }
@@ -35,14 +35,19 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Fredericka the Great';
+  margin-top: 2vh;
 }
 
 nav>a {
-  color: whitesmoke;
   text-decoration: none;
+  width: 16vw;
   font-size: large;
   text-align: justify;
+  padding: 1.1vh 0.5vw 1.5vh 0.5vw;
+  border-radius: 3%;
+  background-color: rgba(92, 76, 76, 0.966);
+  text-align: center;
+  font-weight: bold;
 }
 
 header>.content {
@@ -51,7 +56,6 @@ header>.content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: whitesmoke;
   padding-top: 5vh;
   padding-left: 8vw;
   padding-right: 8vw;
@@ -60,18 +64,15 @@ header>.content {
 header>.content>section {
   display: flex;
   flex-direction: column;
-  color: whitesmoke;
 }
 
 header>.content>section>p {
   text-align: left;
-  color: whitesmoke;
   font-size: 1.8rem; 
 }
 
 header>.content>section>h1 {
   text-align: left;
-  color: whitesmoke
 }
 
 body {
@@ -85,12 +86,12 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
 main>#big-box {
-  margin-top: 7vh;
+  margin-top: 2vh;
   margin-bottom: 12vh;
   width: 100%;
   padding-bottom: 12vh;
@@ -105,10 +106,10 @@ main>#big-box> .small-container {
   margin-bottom: 5vh;
   background-color: rgba(92, 76, 76, 0.966);
   border-radius: 20px;
-  padding-left: 3vw;
-  padding-right: 3vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   padding-bottom: 2vh;
-  padding-top: 2vh;
+  padding-top: 1vh;
 }
 
 /* Apply to all divs (e.g. resume entries) */
