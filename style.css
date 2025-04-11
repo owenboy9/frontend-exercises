@@ -70,7 +70,7 @@ header>.content>section {
 header>.content>section>p {
   text-align: left;
   color: whitesmoke;
-  font-size: large;
+  font-size: 1.8rem; 
 }
 
 header>.content>section>h1 {
@@ -92,16 +92,45 @@ main {
   justify-content: space-between;
   padding-left: 5vw;
   padding-right: 5vw;
+
 }
 
 main>#big-box {
   margin-top: 7vh;
   margin-bottom: 12vh;
   width: 100%;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-bottom: 12vh;
   padding-left: 3vw;
   padding-right: 3vw;
-  background-color: rgba(43, 33, 26, 0.85);
+  background-color: rgba(66, 64, 78, 0.925);
   border-radius: 20px;
+}
+main>#big-box> :first-child {
+  margin-top: 5vh;
+}
+/* Apply to all divs (e.g. resume entries) */
+
+/* Apply to strong tags (e.g. institution names) */
+main>#big-box strong {
+  font-size: 1.8rem; /* Larger font for strong elements */
+  font-weight: bold; /* Make strong elements bold */
+}
+
+/* Apply to span tags (e.g. period) */
+main>#big-box span {
+  font-size: 1.6rem; /* Larger font size for span elements */
+}
+
+main>#big-box p {
+  font-size: 1.5em;
+  margin-left: 3vw;
+}
+main>#big-box>section {
+  margin-top: 15vh;
+}
+
+main>#big-box> a {
+  position: absolute;
+  right: 200px; /* Adjust the distance from the right edge */
+  margin-bottom: 14vh;
 }
