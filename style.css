@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&display=swap');
 
 *,
 *::before,
@@ -9,8 +9,8 @@
 * {
   box-sizing: border-box;
   font-size: 2vh;
-  color: whitesmoke;
-  font-family: "EB Garamond", serif;
+  color: black;
+  font-family: 'Fredericka the Great';
 }
 
 .img{
@@ -28,26 +28,37 @@ header {
   margin-bottom: none;
   height: fit-content;
   justify-content: space-between;
-}
+  background-color: rgba(236, 233, 228, 0.790);
+}  
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2vh;
+  margin: 20px 0px 5px 0px;
+  font-size: 1.2rem;
+  background-color: rgba(207, 199, 182, 0.644);
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 1vh 0;
+}
+
+nav:hover {
+  background-color: rgba(128, 124, 117, 0.719);
 }
 
 nav>a {
   text-decoration: none;
   width: 16vw;
+  margin: 3vw;
   font-size: large;
   text-align: justify;
-  padding: 1.1vh 0.5vw 1.5vh 0.5vw;
-  border-radius: 3%;
-  background-color: rgba(92, 76, 76, 0.966);
   text-align: center;
   font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  color: rgba(236, 233, 228, 0.781);
 }
 
 header>.content {
@@ -76,7 +87,7 @@ header>.content>section>h1 {
 }
 
 body {
-  background-image: url("resources/faces.jpeg");
+  background-image: url("resources/houselightcopy.jpg");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
@@ -95,6 +106,8 @@ main>#big-box {
   margin-bottom: 12vh;
   width: 100%;
   padding-bottom: 12vh;
+  background-color: rgba(236, 233, 228, 0.790);
+  border-radius: 5px;
 }
 
 main>#big-box> .small-container {
@@ -104,7 +117,9 @@ main>#big-box> .small-container {
   align-items: end;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  background-color: rgba(92, 76, 76, 0.945);
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: rgba(207, 199, 182, 0.644);
   border-radius: 20px;
   padding-left: 2vw;
   padding-right: 2vw;
