@@ -76,5 +76,11 @@
     { "language": "Portuguese", "proficiency": "passive advanced" },
     { "language": "Norwegian", "proficiency": "passive advanced" },
     { "language": "Danish", "proficiency": "passive advanced" }
+  ],
+  "contact": [
+    {"phone": "+46763036456"},
+    {"email": "owenkraus9@gmail.com"},
+    {"linkedIn": "https://www.linkedin.com/in/owen-kraus9"},
+    {"gitHub": "https://github.com/owenboy9"}
   ]
 }
