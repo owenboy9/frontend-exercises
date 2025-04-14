@@ -8,26 +8,50 @@ fetch('data.json')
   })
   .catch(error => console.error('Error fetching data:', error));
   
-// For languages and programming skills
 function loadListSection(entries, containerId) {
   const container = document.getElementById(containerId);
 
-  entries.forEach(item => {
-    let entry = document.createElement("div");
+  // Group entries by proficiency level
+  const grouped = entries.reduce((acc, item) => {
+    const level = item.proficiency;
+    if (!acc[level]) acc[level] = [];
+    acc[level].push(item.language);
+    return acc;
+  }, {});
+
+  // Define desired order of proficiency levels
+  const levelPriority = [
+    'native',
+    'near-native',
+    'proficient',
+    'advanced',
+    'passive advanced',
+    'intermediate',
+    'beginner',
+    'passive',
+    'basic'
+  ];
+
+  const sortedLevels = Object.keys(grouped).sort((a, b) => {
+    const priorityA = levelPriority.indexOf(a.toLowerCase());
+    const priorityB = levelPriority.indexOf(b.toLowerCase());
+    return priorityA - priorityB;
+  });
+
+  // Build and append entries
+  sortedLevels.forEach(level => {
+    const entry = document.createElement("div");
     entry.classList.add("list-entry");
 
-    let language = document.createElement("strong");
-    language.textContent = item.language;
+    const p = document.createElement("p");
+    p.textContent = `${grouped[level].join(', ')} — ${level}`;
 
-    let proficiency = document.createElement("span");
-    proficiency.textContent = ` — ${item.proficiency}`;
-
-    entry.appendChild(language);
-    entry.appendChild(proficiency);
-
+    entry.appendChild(p);
     container.appendChild(entry);
   });
 }
+
+
 Result:
 // Function to load either Education or Professional Experience section
 function loadSection(entries, containerId) {
