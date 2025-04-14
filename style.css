@@ -56,7 +56,6 @@ nav>a {
   text-decoration: none;
   margin: 3vw;
   font-size: 3.5vh;
-  text-align: justify;
   text-align: center;
   font-weight: bold;
   transition: background-color 0.3s, transform 0.3s;
@@ -177,17 +176,37 @@ footer {
   padding: 2px 2px 2px 2px;
 }
 
-footer> .footer-content {
-  width: 100%;
+.footer-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: end;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  height: fit-content;
-  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 1vh 1vw;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  gap: 10vw; /* optional: nice spacing between entries */
+  align-items: center; /* vertical centering */
+}
+
+#contact a{
+  text-decoration: none;
+  font-size: 3.5vh;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+footer:hover {
+  background-color: rgba(128, 124, 117, 0.719);
+  color: rgba(236, 233, 228, 0.781);
+}
+
+#contact a:hover {
+  color: rgba(236, 233, 228, 0.781);
 }
 
 /* ------------ RESPONSIVE DESIGN ------------ */

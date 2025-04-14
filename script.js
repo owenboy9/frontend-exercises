@@ -95,6 +95,7 @@ function loadContactSection(entries, containerId) {
     if (type === "phone") {
       // Plain text phone number
       const phone = document.createElement("a");
+      phone.href = `tel:${value}`;
       phone.textContent = value;
       entry.appendChild(phone);
     } else if (type === "email") {
