@@ -279,7 +279,7 @@ color: rgba(207, 199, 182, 0.724);
 
   .image-button{
     font-size: 1.6rem;
-    padding: 3px;
+    padding: 0.5em; /* relative to font size */
   }
 
   nav {
