@@ -306,5 +306,10 @@ color: rgba(207, 199, 182, 0.724);
   flex-direction: row;
   gap: 1vw; /* optional: nice spacing between entries */
   align-items: center; /* vertical centering */
+  }
+  #contact a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: background-color 0.3s, transform 0.3s;
 }
 }
