@@ -170,10 +170,9 @@ main>#big-box> .small-container> a {
 
 footer {
   width: 100%;
-  background-color: rgba(207, 199, 182, 0.724);
-  margin-bottom: 9vh;
+  margin-bottom: 5vh;
   margin-top: 0;
-  padding: 2px 2px 2px 2px;
+  padding: 2px 0 2px 0;
 }
 
 .footer-content {
@@ -184,6 +183,7 @@ footer {
   transition: background-color 0.3s, transform 0.3s;
   padding: 1vh 1vw;
   justify-content: center;
+  background-color: rgba(207, 199, 182, 0.724);
 }
 
 #contact {
@@ -200,13 +200,23 @@ footer {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-footer:hover {
+.footer-content:hover {
   background-color: rgba(128, 124, 117, 0.719);
   color: rgba(236, 233, 228, 0.781);
 }
 
 #contact a:hover {
-  color: rgba(236, 233, 228, 0.781);
+  color: rgb(236, 233, 228);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.copyright p {
+color: rgba(207, 199, 182, 0.724);
 }
 
 /* ------------ RESPONSIVE DESIGN ------------ */
@@ -290,4 +300,11 @@ footer:hover {
     padding-left: 2vw;
     padding-right: 2vw;
   }
+
+  #contact {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw; /* optional: nice spacing between entries */
+  align-items: center; /* vertical centering */
+}
 }
