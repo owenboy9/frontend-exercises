@@ -13,6 +13,22 @@
 
 }
 
+.image-button {
+      background-color: rgba(0, 0, 0, 0.76);
+      color: rgba(187, 185, 183, 0.781);
+      padding: 10px;
+      border: none;
+      border-radius: 50%;
+      font-family: "EB Garamond", serif;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: large;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+}
+
 .resume-entry p {
   margin: 0;
 }
@@ -259,6 +275,11 @@ color: rgba(207, 199, 182, 0.724);
 @media (max-width: 600px) {
   * {
     font-size: 1.6vh;
+  }
+
+  .image-button{
+    font-size: 1.6rem;
+    padding: 3px;
   }
 
   nav {
