@@ -28,13 +28,17 @@
       font-weight: bold;
       transition: background-color 0.3s, transform 0.3s;
 }
+.image-button:hover{
+  background-color: rgba(128, 124, 117, 0.719);
+  color: black;
+}
 
 .resume-entry p {
   margin: 0;
 }
 
 .resume-entry:not(:last-child){
-  margin-bottom: 14px;
+  margin-bottom: 9px;
 }
 
 .resume-entry p, .list-entry p {
@@ -117,10 +121,7 @@ header>.content>section>h1 {
   margin-top: 2vh;
 }
 
-.image-button:hover{
-  background-color: rgba(128, 124, 117, 0.719);
-  color: black;
-}
+
 body {
   background-image: url("resources/head.jpg");
   background-size: cover;
@@ -155,7 +156,7 @@ main>#big-box> .small-container {
   border-radius: 10px;
   padding-left: 2vw;
   padding-right: 2vw;
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
   padding-top: 1vh;
 }
 
@@ -177,7 +178,7 @@ main>#big-box p {
   margin-left: 3vw;
 }
 main>#big-box>section {
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 main>#big-box> .small-container> a {
