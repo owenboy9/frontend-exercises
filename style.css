@@ -322,11 +322,11 @@ color: rgba(207, 199, 182, 0.724);
     padding-right: 2vw;
   }
 
-  footer {
-    padding: 0 0 0 0;
-    width: 80vw;
-    margin: 1vh 0;
-  }
+footer {
+  width: 100%; /* take full width */
+  margin: 1vh auto; /* auto centers it horizontally */
+  padding: 0;
+}
 
   .footer-content {
   display: flex;
@@ -338,6 +338,8 @@ color: rgba(207, 199, 182, 0.724);
   justify-content: center;
   background-color: rgba(207, 199, 182, 0.724);
   height: fit-content;
+  width: 100%;
+  text-align: center;
   }
 
   #contact {
