@@ -277,11 +277,15 @@ color: rgba(207, 199, 182, 0.724);
     font-size: 1.6vh;
   }
 
-  .image-button{
-    font-size: 1.6rem;
-    padding: 0.5em; /* relative to font size */
-    font-weight: normal;
+  .image-button {
+    font-size: 1.2rem;         /* smaller font */
+    font-weight: normal;       /* not bold */
+    padding: 0.4em 0.8em;      /* some internal spacing */
+    align-self: flex-end;      /* push to the right in flex column */
+    margin-top: 1vh;           /* push it downward a bit */
+    margin-right: 1vw;         /* keep it away from the edge */
   }
+
 
   nav {
     flex-direction: column;
