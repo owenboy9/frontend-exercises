@@ -280,6 +280,7 @@ color: rgba(207, 199, 182, 0.724);
   .image-button{
     font-size: 1.6rem;
     padding: 0.5em; /* relative to font size */
+    font-weight: normal;
   }
 
   nav {
@@ -291,13 +292,6 @@ color: rgba(207, 199, 182, 0.724);
     width: 80vw;
     margin: 1vh 0;
     font-size: 1.4rem;
-  }
-
-  .img {
-    width: 15vw;
-    height: 15vw;
-    margin-top: 2vh;
-    margin-bottom: 0;
   }
 
   header > .content {
