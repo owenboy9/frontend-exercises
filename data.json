@@ -1,6 +1,13 @@
 {
   "education": [
     {
+      "institution": "Lexicon",
+      "location": "Malmö, Sweden",
+      "period": "03/2025 – 12/2025",
+      "role": "Applied Programming",
+      "description": "C# .NET Fullstack, ORM & Entity Framework, LINQ, HTML, CSS, JavaScript, React, Bootstrap, ASP.NET Web API, ASP.NET Core MVC, Relational Database, SQL i Microsoft SQL server, Azure Fundamentals: AZ-900, Azure AI, Azure integration in web applications, Python Fundamentals and OOP, ML, Python in Flask / Django,  Azure Bot Services och Language Understanding (LUIS), CI/CD (Azure DevOps)"
+    },
+    {
       "institution": "Handelsakademin",
       "location": "Malmö, Sweden",
       "period": "09/2023 – 12/2024",
