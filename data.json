@@ -71,8 +71,12 @@
     { "language": "Git / GitHub", "proficiency": "advanced" },
     { "language": "CI/CD", "proficiency": "intermediate" },
     { "language": "Linux", "proficiency": "beginner" },
-    { "language": "Windows", "proficiency": "advanced" },
-    { "language": "macOS", "proficiency": "advanced" }
+    { "language": "Bash", "proficiency": "intermediate" },
+    { "language": "CSS", "proficiency": "intermediate" },
+    { "language": "HTML", "proficiency": "intermediate" },
+    { "language": "SQL", "proficiency": "intermediate" },
+    { "language": "Django", "proficiency": "beginner" },
+    { "language": "Flask", "proficiency": "beginner" }
   ],
   "humanLanguages": [
     { "language": "Polish", "proficiency": "native" },
