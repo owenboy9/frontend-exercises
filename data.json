@@ -76,12 +76,12 @@
     { "language": "HTML", "proficiency": "intermediate" },
     { "language": "SQL", "proficiency": "intermediate" },
     { "language": "Azure", "proficiency": "beginner" },
+    { "language": "Azure integration in web applications", "proficiency": "beginner" },
     { "language": "CI/CD (Azure DevOps)", "proficiency": "beginner" },
     { "language": "LINQ", "proficiency": "beginner" },
     { "language": "ASP.NET Web API", "proficiency": "beginner" },
     { "language": "ORM & Entity Framework", "proficiency": "beginner" },
     { "language": "Django", "proficiency": "beginner" },
-    { "language": "Azure integration in web applications", "proficiency": "beginner" },
     { "language": "Flask", "proficiency": "beginner" }
   ],
   "humanLanguages": [
